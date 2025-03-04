@@ -8,7 +8,7 @@ CORS(app) ## To allow direct AJAX calls
 
 @app.route('/datos', methods=['GET'])
 def home():
-    r = requests.get('https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json')
+    r = requests.get(' https://api.tvmaze.com/shows')
 
     return r.json()
 
